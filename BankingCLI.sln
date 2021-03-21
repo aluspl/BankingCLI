@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingCLI", "BankingCLI\BankingCLI.csproj", "{242764F1-056C-43E7-961B-DE63F6ABE7C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingCLI.Common", "BankingCLI.Common\BankingCLI.Common.csproj", "{16A6A864-9BDC-4180-8BF4-21066BC4615F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingCLI.Services", "BankingCLI.Services\BankingCLI.Services.csproj", "{9FE5C786-7E7B-4C88-B500-B4C8B930A236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingCLI.Tests", "BankingCLI.Tests\BankingCLI.Tests.csproj", "{BA70F45B-4699-426A-AC3D-7628F11BE7D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{242764F1-056C-43E7-961B-DE63F6ABE7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{242764F1-056C-43E7-961B-DE63F6ABE7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{242764F1-056C-43E7-961B-DE63F6ABE7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A6A864-9BDC-4180-8BF4-21066BC4615F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A6A864-9BDC-4180-8BF4-21066BC4615F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A6A864-9BDC-4180-8BF4-21066BC4615F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A6A864-9BDC-4180-8BF4-21066BC4615F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE5C786-7E7B-4C88-B500-B4C8B930A236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE5C786-7E7B-4C88-B500-B4C8B930A236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE5C786-7E7B-4C88-B500-B4C8B930A236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE5C786-7E7B-4C88-B500-B4C8B930A236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA70F45B-4699-426A-AC3D-7628F11BE7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA70F45B-4699-426A-AC3D-7628F11BE7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA70F45B-4699-426A-AC3D-7628F11BE7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA70F45B-4699-426A-AC3D-7628F11BE7D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
