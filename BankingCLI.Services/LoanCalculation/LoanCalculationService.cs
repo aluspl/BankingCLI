@@ -42,9 +42,8 @@ namespace BankingCLI.Services.LoanCalculation
         {
             var interestRate = LoanConfig.AnnualInterestRate/100;
             var monthlyRate = interestRate / (double)12 ;
-            var totalMonths = yearsOfLoan * 12;
 
-            var total =  loanAmount * Math.Pow(1 + monthlyRate, totalMonths);
+            var total =  loanAmount * (1 + (interestRate * yearsOfLoan));
 
             return total - loanAmount;
         }

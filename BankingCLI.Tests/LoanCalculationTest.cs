@@ -40,7 +40,7 @@ namespace BankingCLI.Tests
             Assert.AreEqual(Math.Round(administrationFee), Math.Round(result.AdministrationFee));
         }
 
-        [TestCase(500000, 10, 6904.28)]
+        [TestCase(500000, 10, 6292)]
         public void CalculateMonthlyPayment(double amount, int duration, double monthlyPayment)
         {
             var serviceModel = new LoanCalculationServiceModel
@@ -53,7 +53,7 @@ namespace BankingCLI.Tests
             Assert.AreEqual(Math.Round(monthlyPayment), Math.Round(result.MonthlyPayment));
         }
 
-        [TestCase(500000, 10, 323505)]
+        [TestCase(500000, 10, 250000)]
         public void CalculateInterestRate(double amount, int duration, double interestsRate)
         {
             var serviceModel = new LoanCalculationServiceModel
